@@ -1,0 +1,72 @@
+:root {
+	--white: #e4dfda;
+	--brown: #d4b483;
+	--red: #c1666b;
+	--light: #48a9a6;
+	--dark: #4357ad;
+	--black: #222222;
+}
+
+.current {
+	color: green;
+}
+
+body {
+	background-color: var(--brown);
+}
+
+.content {
+	background-color: var(--red);
+	color: var(--black);
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+	position: fixed;
+	margin-top: 2%;
+}
+.title{
+	color: var(--white);
+	font-size: 30px;
+	text-align: center;
+}
+.text_block{
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	padding: 4%;
+	background-color: var(--white);
+	border-style: solid;
+	border-color: var(--black);
+}
+.highlight{
+	background-color: var(--white);
+	border-style: solid;
+	border-color: var(--black);
+	border-width: 1%;
+	padding-left: 2%;
+
+}
+.topnav {
+  background-color: var(--brown);
+  text-align: center;
+  width: 100%;
+}
+
+.not_current {
+	color: var(--white);
+	background: var(--dark);
+	text-align: center;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-left: 3%;
+	padding-right: 3%;
+
+	font-size: 200%;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: var(--black);
+}
+.current {
+	background: var(--light);
+}

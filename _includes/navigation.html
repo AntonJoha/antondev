@@ -1,7 +1,9 @@
-<nav>
+<nav class="topnav">
   {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+  <button onclick="location.href='{{ item.link }}'" {% if page.url == item.link %}class='not_current current'
+	 {% else %} class=not_current
+	 {% endif %}>
       {{ item.name }}
-    </a>
+    </button>
   {% endfor %}
 </nav>
