@@ -3,6 +3,10 @@ layout: default
 title: About
 ---
 
-# About page
+# Who am I???
 
-This page tells you a little bit about me
+
+Hello, my name is **Anton** as I assume you guessed by the domain name. 
+I'm from Värmland and currently studying a masters in computer science at Karlstad University to become a _Civilingenjör_ in computer science. 
+Or as the English name calls it: _Master of Science in Computer Engineering_. 
+I'm currently studying my forth year, going on my fifth and final in September. 
