@@ -21,8 +21,9 @@ body {
 	margin-left: 10%;
 	margin-right: 10%;
 	width: 80%;
-	position: fixed;
 	margin-top: 2%;
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
 .title{
 	color: var(--white);
@@ -69,4 +70,15 @@ body {
 }
 .current {
 	background: var(--light);
+}
+
+.spoiler{
+  background-color: var(--black);
+  color: transparent;
+  user-select: none;
+}
+
+.spoiler:hover{
+  background-color: inherit;
+  color: inherit;
 }
